@@ -6,7 +6,7 @@ void main() => runApp(XylophoneApp());
 class XylophoneApp extends StatelessWidget {
   Expanded makeKeys(Color color, int num, String note) {
     return Expanded(
-      child: TextButton(
+      child: ElevatedButton(
         style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all<Color>(color),
         ),
